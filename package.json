@@ -1,0 +1,27 @@
+{
+  "name": "react-native-ifly-voice-recognizition",
+  "version": "1.0.0",
+  "description": "ifly voice recognizition for react-native",
+  "main": "index.js",
+  "scripts": {
+    "test": "'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zcgong/react-native-iFlyVoiceRecognizition.git"
+  },
+  "keywords": [
+    "ifly",
+    "voice",
+    "recognizition"
+  ],
+  "author": "zcgong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Zcgong/react-native-iFlyVoiceRecognizition/issues"
+  },
+  "homepage": "https://github.com/Zcgong/react-native-iFlyVoiceRecognizition#readme"
+  "dependencies": {
+
+  }
+}

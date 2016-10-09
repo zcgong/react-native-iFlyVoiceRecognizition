@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9AD07E2F1DAA396900705C80 /* IATConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD07E291DAA396900705C80 /* IATConfig.m */; };
+		9AD07E301DAA396900705C80 /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AD07E2A1DAA396900705C80 /* iflyMSC.framework */; };
+		9AD07E311DAA396900705C80 /* ISRDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD07E2C1DAA396900705C80 /* ISRDataHelper.m */; };
+		9AD07E481DAA3A2D00705C80 /* RNiFlyVoiceRecognizition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD07E471DAA3A2D00705C80 /* RNiFlyVoiceRecognizition.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9AD07E0C1DAA355900705C80 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9AD07E0E1DAA355900705C80 /* libRNiFlyVoiceRecognizition.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNiFlyVoiceRecognizition.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AD07E281DAA396900705C80 /* IATConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IATConfig.h; sourceTree = "<group>"; };
+		9AD07E291DAA396900705C80 /* IATConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IATConfig.m; sourceTree = "<group>"; };
+		9AD07E2A1DAA396900705C80 /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iflyMSC.framework; sourceTree = "<group>"; };
+		9AD07E2B1DAA396900705C80 /* ISRDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISRDataHelper.h; sourceTree = "<group>"; };
+		9AD07E2C1DAA396900705C80 /* ISRDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISRDataHelper.m; sourceTree = "<group>"; };
+		9AD07E461DAA3A2D00705C80 /* RNiFlyVoiceRecognizition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNiFlyVoiceRecognizition.h; sourceTree = "<group>"; };
+		9AD07E471DAA3A2D00705C80 /* RNiFlyVoiceRecognizition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNiFlyVoiceRecognizition.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9AD07E0B1DAA355900705C80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AD07E301DAA396900705C80 /* iflyMSC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9AD07E051DAA355900705C80 = {
+			isa = PBXGroup;
+			children = (
+				9AD07E101DAA355900705C80 /* RNiFlyVoiceRecognizition */,
+				9AD07E0F1DAA355900705C80 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9AD07E0F1DAA355900705C80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AD07E0E1DAA355900705C80 /* libRNiFlyVoiceRecognizition.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AD07E101DAA355900705C80 /* RNiFlyVoiceRecognizition */ = {
+			isa = PBXGroup;
+			children = (
+				9AD07E461DAA3A2D00705C80 /* RNiFlyVoiceRecognizition.h */,
+				9AD07E471DAA3A2D00705C80 /* RNiFlyVoiceRecognizition.m */,
+				9AD07E271DAA396900705C80 /* isr */,
+			);
+			path = RNiFlyVoiceRecognizition;
+			sourceTree = "<group>";
+		};
+		9AD07E271DAA396900705C80 /* isr */ = {
+			isa = PBXGroup;
+			children = (
+				9AD07E281DAA396900705C80 /* IATConfig.h */,
+				9AD07E291DAA396900705C80 /* IATConfig.m */,
+				9AD07E2A1DAA396900705C80 /* iflyMSC.framework */,
+				9AD07E2B1DAA396900705C80 /* ISRDataHelper.h */,
+				9AD07E2C1DAA396900705C80 /* ISRDataHelper.m */,
+			);
+			path = isr;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9AD07E0D1DAA355900705C80 /* RNiFlyVoiceRecognizition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AD07E171DAA355900705C80 /* Build configuration list for PBXNativeTarget "RNiFlyVoiceRecognizition" */;
+			buildPhases = (
+				9AD07E0A1DAA355900705C80 /* Sources */,
+				9AD07E0B1DAA355900705C80 /* Frameworks */,
+				9AD07E0C1DAA355900705C80 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNiFlyVoiceRecognizition;
+			productName = RNiFlyVoiceRecognizition;
+			productReference = 9AD07E0E1DAA355900705C80 /* libRNiFlyVoiceRecognizition.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9AD07E061DAA355900705C80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = zcgong;
+				TargetAttributes = {
+					9AD07E0D1DAA355900705C80 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9AD07E091DAA355900705C80 /* Build configuration list for PBXProject "RNiFlyVoiceRecognizition" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9AD07E051DAA355900705C80;
+			productRefGroup = 9AD07E0F1DAA355900705C80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9AD07E0D1DAA355900705C80 /* RNiFlyVoiceRecognizition */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9AD07E0A1DAA355900705C80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AD07E311DAA396900705C80 /* ISRDataHelper.m in Sources */,
+				9AD07E2F1DAA396900705C80 /* IATConfig.m in Sources */,
+				9AD07E481DAA3A2D00705C80 /* RNiFlyVoiceRecognizition.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9AD07E151DAA355900705C80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9AD07E161DAA355900705C80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9AD07E181DAA355900705C80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RNiFlyVoiceRecognizition/isr",
+				);
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../react-native/React/**";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9AD07E191DAA355900705C80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RNiFlyVoiceRecognizition/isr",
+				);
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../react-native/React/**";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9AD07E091DAA355900705C80 /* Build configuration list for PBXProject "RNiFlyVoiceRecognizition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AD07E151DAA355900705C80 /* Debug */,
+				9AD07E161DAA355900705C80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AD07E171DAA355900705C80 /* Build configuration list for PBXNativeTarget "RNiFlyVoiceRecognizition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AD07E181DAA355900705C80 /* Debug */,
+				9AD07E191DAA355900705C80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9AD07E061DAA355900705C80 /* Project object */;
+}
